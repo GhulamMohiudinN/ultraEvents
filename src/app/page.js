@@ -1,95 +1,94 @@
 import Image from "next/image";
-import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
+    <div>
+      <div className="relative w-full h-screen">
         <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
+          src="/bg-logo.png" // Path to your image
+          alt="Full Screen Image"
+          layout="fill" // This ensures the image takes up the full size of its parent
+          objectFit="cover" // This ensures the image covers the entire area while maintaining its aspect ratio
+          quality={100} // Optional: Controls the quality of the image (higher values = better quality)
         />
-        <ol>
-          <li>
-            Get started by editing <code>src/app/page.js</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+      </div>
 
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+      <h2 className="text-8xl px-7 font-light my-4">Our Services</h2>
+      <div className="flex flex-wrap my-12 px-6">
+        {/* Left Section: 4 Image Sections */}
+        <div className="w-full items-center lg:w-2/3 grid grid-cols-2 gap-4 mb-12 lg:mb-0">
+          {/* Image 1 */}
+          <div className="relative flex justify-center items-center">
             <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
+              src="/home1.jpg" // Replace with your image path
+              alt="Image 1"
+              width={500} // Smaller width
+              height={100}
+              objectFit="contain" // Smaller height
+              quality={100}
+              className="object-cover h-[200px]"
             />
-            Deploy now
-          </a>
-          <a
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.secondary}
-          >
-            Read our docs
-          </a>
+          </div>
+
+          {/* Image 2 */}
+          <div className="relative flex justify-center items-center">
+            <Image
+              src="/home1.jpg" // Replace with your image path
+              alt="Image 2"
+              width={500} // Smaller width
+              height={100} // Smaller height
+              className="object-cover h-[200px] "
+            />
+          </div>
+
+          {/* Image 3 */}
+          <div className="relative flex justify-center items-center">
+            <Image
+              src="/home1.jpg" // Replace with your image path
+              alt="Image 3"
+              width={500} // Smaller width
+              height={100} // Smaller height
+              className="object-cover h-[200px]"
+            />
+          </div>
+
+          {/* Image 4 */}
+          <div className="relative flex justify-center items-center">
+            <Image
+              src="/home1.jpg" // Replace with your image path
+              alt="Image 4"
+              width={500} // Smaller width
+              height={100} // Smaller height
+              className="object-cover h-[200px]"
+            />
+          </div>
         </div>
-      </main>
-      <footer className={styles.footer}>
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        {/* Right Section: Text */}
+        <div className="w-full lg:w-1/3 flex flex-col pt-8 lg:pl-12">
+          <p className="text-lg mb-6">
+            PRIVATE DINING EXPERIENCES
+          </p>
+          <p className="text-lg mb-6">
+            EXCLUSIVE PARTY PACKAGES
+          </p>
+          <p className="text-lg mb-6">
+            PROPOSALS & MILESTONE EVENTS
+          </p>
+          <p className="text-lg mb-6">
+            PRIVATE DINING EXPERIENCES
+          </p>
+          <p className="text-lg mb-6">
+            BIRTHDAYS AND MILESTONE EVENTS
+          </p>
+          <p className="text-lg mb-6">
+            VIP CONCIERGE SERVICES
+          </p>
+        </div>
+      </div>
+
+
     </div>
+
   );
 }
