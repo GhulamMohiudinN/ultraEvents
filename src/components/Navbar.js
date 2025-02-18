@@ -36,7 +36,7 @@ const Navbar = () => {
                <div className="border-b border-gray-800 flex">
                     <div className="w-full text-center">
                          <p className="text-white text-sm py-2">
-                              Brisbane & Gold Coast Event Stylists and Party Decorators
+                              Brisbane & Gold Coast Event Management and Hire.
                          </p>
                     </div>
                </div>

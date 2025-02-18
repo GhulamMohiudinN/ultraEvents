@@ -1,15 +1,19 @@
 import Image from "next/image";
 
 export default function Home() {
+
   return (
     <div>
-      <div className="relative w-full h-screen">
+      <div className="relative w-full h-auto">
         <Image
           src="/bg-logo.png" // Path to your image
           alt="Full Screen Image"
-          layout="fill" // This ensures the image takes up the full size of its parent
+          // layout="fill" // This ensures the image takes up the full size of its parent
+          height={1000}
+          width={1000}
           objectFit="cover" // This ensures the image covers the entire area while maintaining its aspect ratio
           quality={100} // Optional: Controls the quality of the image (higher values = better quality)
+          className="w-full h-auto object-cover"
         />
       </div>
 
