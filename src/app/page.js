@@ -44,7 +44,7 @@ export default function Home() {
           {/* Image 3 */}
           <div className="relative flex justify-center items-center">
             <Image
-              src="/home2.gif" // Replace with your image path
+              src="/table.gif" // Replace with your image path
               alt="Image 3"
               width={500} // Smaller width
               height={100} // Smaller height

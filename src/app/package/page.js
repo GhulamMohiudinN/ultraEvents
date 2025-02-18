@@ -20,21 +20,21 @@ const Page = () => {
                          {/* Small Images in the Center */}
                          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 md:flex hidden space-x-4">
                               <Image
-                                   src="/pkg1.webp"
+                                   src="/table.gif"
                                    alt="Small Image 1"
                                    width={200}
                                    height={200}
                                    className="object-cover border-[12px] mb-2 border-white"
                               />
                               <Image
-                                   src="/pkg1.webp"
+                                   src="/platter.gif"
                                    alt="Small Image 2"
                                    width={200}
                                    height={200}
                                    className="object-cover border-[12px] mb-2 border-white"
                               />
                               <Image
-                                   src="/pkg1.webp"
+                                   src="/hire3.gif"
                                    alt="Small Image 3"
                                    width={200}
                                    height={200}
@@ -83,7 +83,7 @@ const Page = () => {
                <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0 sm:space-x-6">
                     {/* Left Section with Image */}
                     <div className="flex-1">
-                         <img src="/island.jpg" alt="Image" className="w-full h-[400px] object-cover" />
+                         <img src="/kanjeri.gif" alt="Image" className="w-full h-[400px] object-cover" />
                     </div>
 
                     {/* Right Section with Heading */}
@@ -114,7 +114,7 @@ const Page = () => {
 
                     {/* Right Section with Heading */}
                     <div className="flex-1">
-                         <img src="/island.jpg" alt="Image" className=" w-[250px] h-[250px] md:-mt-12 object-cover" />
+                         <img src="/hire5.gif" alt="Image" className=" w-[250px] h-[250px] md:-mt-12 object-cover" />
                     </div>
                </div>
 
@@ -138,11 +138,11 @@ const Page = () => {
                     {/* Right Section */}
                     <div className="flex-1 p-4 relative mb-5">
                          <Image
-                              src="/about.jpg" // Replace with your image path
+                              src="/proposal.gif" // Replace with your image path
                               alt="Descriptive image"
                               width={500} // Adjust as needed
                               height={300} // Adjust as needed
-                              className="w-full h-auto object-cover"
+                              className="w-full h-[600px] object-cover"
                          />
                          <Image
                               src="/high tea.jpg" // Replace with your image path
@@ -152,7 +152,7 @@ const Page = () => {
                               className=" h-[230px] w-[200px] border-8 border-white border-b-[30px] shadow-2xl transform rotate-12 object-cover absolute top-[60%] right-8 "
                          />
                          <Image
-                              src="/high tea.jpg" // Replace with your image path
+                              src="/proposal2.gif" // Replace with your image path
                               alt="Descriptive image"
                               width={500} // Adjust as needed
                               height={300} // Adjust as needed
@@ -163,6 +163,30 @@ const Page = () => {
 
                {/* fourth section */}
 
+               <div className=" mx-auto p-4 md:flex">
+                    {/* First Section: Heading */}
+                    <div className="mb-6">
+                         <h1 className="text-5xl md:text-8xl font-light">BIRTHDAYS
+                              AND
+                              MILESTONE
+                              EVENTS</h1>
+                    </div>
+
+                    {/* Second Section: Two Images */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                         <div>
+                              <Image src="/cover.webp" alt="Image 1" width={500} height={300} className="w-full h-full border-[15px] border-[#121212]" />
+                         </div>
+                         <div>
+                              <Image src="/aag.gif" alt="Image 2" width={500} height={300} className="w-full h-full" />
+                         </div>
+                    </div>
+               </div>
+               {/* Description */}
+               <div className="space-y-2  max-w-7xl text-center mx-auto p-4">
+                    <p className="text-black text-xl">COMPREHENSIVE SERVICES INCLUDING BAR HIRE, BARTENDERS, WAITSTAFF, DANCERS, DJS,
+                         THEMED SET UPS, PHOTOGRAPHERS, VIDEOGRAPHERS, SECURITY AND PHOTO BOOTHS.</p>
+               </div>
 
 
                {/* fifth section */}
@@ -170,7 +194,7 @@ const Page = () => {
                <div className="flex flex-col sm:flex-row items-center sm:items-start space-y-6 sm:space-y-0 sm:space-x-6">
                     {/* Left Section with Image */}
                     <div className="flex-1">
-                         <img src="/island.jpg" alt="Image" className="w-full h-[400px] object-cover mt-24 md:mt-0" />
+                         <img src="/car.gif" alt="Image" className="w-full h-[400px] object-cover mt-24 md:mt-0" />
                     </div>
 
                     {/* Right Section with Heading */}
@@ -203,7 +227,42 @@ const Page = () => {
 
                     {/* Right Section with Heading */}
                     <div className="flex-1">
-                         <img src="/island.jpg" alt="Image" className=" w-[250px] h-[250px] md:-mt-12 object-cover " />
+                         <img src="/hire6.gif" alt="Image" className=" w-[250px] h-[250px] md:-mt-12 object-cover " />
+                    </div>
+               </div>
+
+               {/* sixth section */}
+
+               <div className=" mx-auto p-4 md:flex">
+                    {/* First Section: Heading */}
+                    <div className="mb-6">
+                         <h1 className="text-5xl md:text-8xl font-light ">LADIES DAY CELEBRATION</h1>
+                         <p className="text-lg mb-4 px-16 text-center">· CELEBRATE LIFE’S SPECIAL MOMENTS IN STYLE WITH OUR TAILORED PACKAGES FOR HENS, BABY SHOWERS, BIRTHDAYS, AND vALENTINE’S DAY EVENTS.</p>
+                         <p className="text-lg mb-4 px-16 text-center">FROM GLAMOROUS PARTIES TO RELAXING SPADAYS, WE’VE GOT EVERYTHING YOU NEED TO CREATE UNFORGETTABLE MEMORIES WITH YOUR CLOSEST FRIENDS</p>
+
+                    </div>
+
+                    {/* Second Section: Two Images */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+                         <div>
+                              <Image src="/cover.webp" alt="Image 1" width={500} height={300} className="w-full h-full" />
+                         </div>
+                         <div>
+                              <Image src="/aag.gif" alt="Image 2" width={500} height={300} className="w-full h-full" />
+                         </div>
+                    </div>
+
+
+               </div>
+               <div className="grid mb-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                    <div>
+                         <Image src="/hire1.gif" alt="Image 1" width={500} height={300} className="w-full h-full" />
+                    </div>
+                    <div>
+                         <Image src="/hire2.webp" alt="Image 2" width={500} height={300} className="w-full h-full" />
+                    </div>
+                    <div>
+                         <Image src="/hire3.gif" alt="Image 3" width={500} height={300} className="w-full h-full" />
                     </div>
                </div>
 

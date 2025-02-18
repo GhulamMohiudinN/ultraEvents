@@ -32,25 +32,25 @@ const page = () => {
                {/* Right Section */}
                <div className="flex-1 p-4 relative mb-5">
                     <Image
-                         src="/about.jpg" // Replace with your image path
+                         src="/high tea.jpg" // Replace with your image path
                          alt="Descriptive image"
                          width={500} // Adjust as needed
                          height={300} // Adjust as needed
-                         className="w-full h-auto object-cover"
+                         className="w-full h-[600px] object-cover"
                     />
                     <Image
-                         src="/high tea.jpg" // Replace with your image path
+                         src="/table.gif" // Replace with your image path
                          alt="Descriptive image"
                          width={500} // Adjust as needed
                          height={300} // Adjust as needed
                          className=" h-[230px] w-[200px] border-8 border-white border-b-[30px] shadow-2xl transform rotate-12 object-cover absolute top-[60%] right-8 "
                     />
                     <Image
-                         src="/high tea.jpg" // Replace with your image path
+                         src="/about2.gif" // Replace with your image path
                          alt="Descriptive image"
                          width={500} // Adjust as needed
                          height={300} // Adjust as needed
-                         className=" h-[230px] w-[200px] border-8 border-white border-b-[30px] shadow-2xl transform  object-cover absolute top-[65%] right-16 "
+                         className=" h-[230px] w-[200px] shadow-2xl transform  object-cover absolute top-[65%] right-16 "
                     />
                </div>
           </div>

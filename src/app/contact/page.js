@@ -21,7 +21,7 @@ const page = () => {
                     {/* Right Section */}
                     <div className="flex-1 p-4 relative">
                          <Image
-                              src="/high tea.jpg" // Replace with your image path
+                              src="/whyus.gif" // Replace with your image path
                               alt="Descriptive image"
                               width={500} // Adjust as needed
                               height={300} // Adjust as needed
@@ -29,11 +29,11 @@ const page = () => {
                          />
                          <div className=''>
                               <Image
-                                   src="/high tea.jpg" // Replace with your image path
+                                   src="/whyus2.gif" // Replace with your image path
                                    alt="Descriptive image"
                                    width={500} // Adjust as needed
                                    height={300} // Adjust as needed
-                                   className=" h-[150px] w-[150px] border-8 border-white border-b-[30px] shadow-2xl transform -rotate-6 object-cover absolute top-[60%] md:-left-10"
+                                   className=" h-[150px] w-[150px] shadow-2xl transform -rotate-6 object-cover absolute top-[60%] md:-left-10"
                               />
                          </div>
 
@@ -45,7 +45,7 @@ const page = () => {
 
                     <div className="flex-1 p-4">
                          <Image
-                              src="/flare bartending.gif" // Replace with your image path
+                              src="/letconnect.gif" // Replace with your image path
                               alt="Descriptive image"
                               width={500} // Adjust as needed
                               height={300} // Adjust as needed

@@ -79,12 +79,16 @@ const Navbar = () => {
 
                     {/* Social Icons (hidden on small screens, aligned right on large screens) */}
                     <div className="flex gap-3 pr-3 items-center">
-                         <div className="hover:cursor-pointer">
-                              <FaPinterest size={20} />
-                         </div>
-                         <div className="hover:cursor-pointer">
-                              <FaInstagram size={20} />
-                         </div>
+                         <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
+                              <div className="hover:cursor-pointer">
+                                   <FaPinterest size={20} />
+                              </div>
+                         </a>
+                         <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
+                              <div className="hover:cursor-pointer">
+                                   <FaInstagram size={20} />
+                              </div>
+                         </a>
                     </div>
                </nav>
 
@@ -113,12 +117,16 @@ const Navbar = () => {
                          ))}
                          {/* Social Icons for Mobile */}
                          <div className="flex gap-3 justify-center">
-                              <div className="hover:cursor-pointer">
-                                   <FaPinterest size={20} />
-                              </div>
-                              <div className="hover:cursor-pointer">
-                                   <FaInstagram size={20} />
-                              </div>
+                              <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
+                                   <div className="hover:cursor-pointer">
+                                        <FaPinterest size={20} />
+                                   </div>
+                              </a>
+                              <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
+                                   <div className="hover:cursor-pointer">
+                                        <FaInstagram size={20} />
+                                   </div>
+                              </a>
                          </div>
                     </ul>
                </div>
