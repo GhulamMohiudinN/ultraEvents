@@ -33,7 +33,7 @@ export default function Home() {
           {/* Image 2 */}
           <div className="relative flex justify-center items-center">
             <Image
-              src="/home1.jpg" // Replace with your image path
+              src="/home2.gif" // Replace with your image path
               alt="Image 2"
               width={500} // Smaller width
               height={100} // Smaller height
@@ -44,7 +44,7 @@ export default function Home() {
           {/* Image 3 */}
           <div className="relative flex justify-center items-center">
             <Image
-              src="/home1.jpg" // Replace with your image path
+              src="/home2.gif" // Replace with your image path
               alt="Image 3"
               width={500} // Smaller width
               height={100} // Smaller height
@@ -55,7 +55,7 @@ export default function Home() {
           {/* Image 4 */}
           <div className="relative flex justify-center items-center">
             <Image
-              src="/home1.jpg" // Replace with your image path
+              src="/home1.gif" // Replace with your image path
               alt="Image 4"
               width={500} // Smaller width
               height={100} // Smaller height

@@ -13,7 +13,7 @@ const page = () => {
 
                     <div className=" xs:w-full mt-3 md:mt-0 md:w-1/4 mr-5 items-center flex justify-center">
                          <Image
-                              src="/island.jpg"
+                              src="/home2.gif"
                               alt="Image description"
                               width={170}
                               height={170}
@@ -40,7 +40,7 @@ const page = () => {
 
                     <div className=" md:-mt-20 md:w-1/3 xs:w-full flex md:items-start md:justify-normal items-center justify-center mt-3">
                          <Image
-                              src="/island.jpg"
+                              src="/hire1.gif"
                               alt="Image description"
                               width={130}
                               height={130}
