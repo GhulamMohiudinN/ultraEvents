@@ -81,11 +81,6 @@ const Navbar = () => {
                     <div className="flex gap-3 pr-3 items-center">
                          <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
                               <div className="hover:cursor-pointer">
-                                   <FaPinterest size={20} />
-                              </div>
-                         </a>
-                         <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
-                              <div className="hover:cursor-pointer">
                                    <FaInstagram size={20} />
                               </div>
                          </a>
@@ -117,11 +112,6 @@ const Navbar = () => {
                          ))}
                          {/* Social Icons for Mobile */}
                          <div className="flex gap-3 justify-center">
-                              <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
-                                   <div className="hover:cursor-pointer">
-                                        <FaPinterest size={20} />
-                                   </div>
-                              </a>
                               <a href="https://www.instagram.com/ultraeventsgroup/" target="_blank" rel="noopener noreferrer">
                                    <div className="hover:cursor-pointer">
                                         <FaInstagram size={20} />
