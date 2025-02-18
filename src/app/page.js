@@ -13,7 +13,7 @@ export default function Home() {
         />
       </div>
 
-      <h2 className="text-8xl px-7 font-light my-4">Our Services</h2>
+      <h2 className="md:text-8xl text-6xl px-7 font-light my-4">Our Services</h2>
       <div className="flex flex-wrap my-12 px-6">
         {/* Left Section: 4 Image Sections */}
         <div className="w-full items-center lg:w-2/3 grid grid-cols-2 gap-4 mb-12 lg:mb-0">
