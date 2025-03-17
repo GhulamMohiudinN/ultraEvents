@@ -192,7 +192,7 @@ const page = () => {
                          </button>
                          <div>
                               <p className="text-lg my-4 px-16 text-center">WEBSITE: ULTRA EVENTS GROUP</p>
-                              <p className="text-lg mb-4 px-16 text-center">EMAIL: ULTRAEVENTS @OUTLOOK.COM.AU</p>
+                              <p className="text-lg mb-4 px-16 text-center">EMAIL: info@ultraeventsgroup.com.au </p>
                               <p className="text-lg mb-4 px-16 text-center">PHONE: +61 (0) 435 896 957</p>
                               <p className="text-lg  px-16 text-center">INSTAGRAM: @ ULTRAEVENTSGROUP</p>
                          </div>
